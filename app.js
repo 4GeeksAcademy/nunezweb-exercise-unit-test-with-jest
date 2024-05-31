@@ -24,13 +24,13 @@ const fromEuroToDollar = function(valueInEuro) {
     return valueInDollar ;
 }
 // Conversión "fromDollarToYen"
-const fromDollarToYen = function(newValueInDollar) {
+const fromDollarToYen = (newValueInDollar) => {
     let valueInYen = newValueInDollar * 156.5;
     return valueInYen
 }
 
 // Conversión "fromYenToPound"
-const fromDollarToPound = function(valueInDollarFromPound) {
+const fromDollarToPound = (valueInDollarFromPound) => {
     let valueInPound = valueInDollarFromPound * 0.87;
     return valueInPound
 }
